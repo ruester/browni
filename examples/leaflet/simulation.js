@@ -42,5 +42,5 @@ lifeCycle = {
 }
 
 setTimeout(function(){
-    let thismodel = new NAMI.app(data, output, lifeCycle);
+    let thismodel = Nami(data, output, lifeCycle);
 }, 2000);
